@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import About from "./components/About";
 import SkillsDisplay from "./components/SkillsDisplay";
 import ProjectsSection from "./components/ProjectsSection";
+import Socials from "./components/Socials";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <About />
         <SkillsDisplay />
         <ProjectsSection />
+        <Socials />
         <main className="flex-grow">
           <Routes>
             {/* <Route path="/" element={<Home />} /> */}
